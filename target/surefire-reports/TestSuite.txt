@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 31.56 s <<< FAILURE! - in TestSuite
+pack1.CrossBrowser.setup[firefox](0)  Time elapsed: 2.789 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SE1G6PR', ip: '192.168.0.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x011506F3+2492147]
+	Ordinal0 [0x010E9BD1+2071505]
+	Ordinal0 [0x00FF2478+1057912]
+	Ordinal0 [0x010392AE+1348270]
+	Ordinal0 [0x0103890C+1345804]
+	Ordinal0 [0x01039BE5+1350629]
+	Ordinal0 [0x01039A6A+1350250]
+	Ordinal0 [0x0103568B+1332875]
+	Ordinal0 [0x010121D4+1188308]
+	Ordinal0 [0x0101302F+1191983]
+	GetHandleVerifier [0x012D67A6+1545030]
+	GetHandleVerifier [0x0138105C+2243580]
+	GetHandleVerifier [0x011DBC97+518199]
+	GetHandleVerifier [0x011DAD80+514336]
+	Ordinal0 [0x010EED2D+2092333]
+	Ordinal0 [0x010F2EE8+2109160]
+	Ordinal0 [0x010F3022+2109474]
+	Ordinal0 [0x010FCB71+2149233]
+	BaseThreadInitThunk [0x75D2FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A6E+238]
+
+	at pack1.CrossBrowser.setup(CrossBrowser.java:18)
+
